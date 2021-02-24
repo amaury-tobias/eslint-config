@@ -1,0 +1,18 @@
+{
+  "name": "@attq/eslint-config-monorepo",
+  "version": "0.0.1",
+  "author": "amaury-tobias <amaury.tobiasqr@gmail.com> (https://amaurytq.dev)",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "lint": "eslint --ext .js --fix .",
+    "release": "lerna publish --conventional-commits"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "lerna": "^3.22.1",
+    "typescript": "^4.2.2",
+    "@attq/eslint-config": "*"
+  }
+}

@@ -1,0 +1,27 @@
+{
+	"name": "@attq/eslint-config-ts",
+	"version": "0.0.0",
+	"description": "",
+	"main": "index.js",
+	"keywords": [],
+	"author": "amaury-tobias <amaury.tobiasqr@gmail.com> (https://amaurytq.dev)",
+	"license": "MIT",
+	"files": [
+		"index.js"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"peerDependencies": {
+		"eslint": ">=7.4.0",
+		"typescript": ">=4.1"
+	},
+	"devDependencies": {
+		"eslint": "^7.20.0"
+	},
+	"dependencies": {
+		"@attq/eslint-config-basic": "^0.0.0",
+		"@typescript-eslint/eslint-plugin": "^4.15.2",
+		"@typescript-eslint/parser": "^4.15.2"
+	}
+}
