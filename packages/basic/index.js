@@ -12,6 +12,12 @@ module.exports = {
     },
   },
   rules: {
+    // import
+    'import/order': 'error',
+    'import/first': 'error',
+    'import/no-mutable-exports': 'error',
+    'import/no-unresolved': 'off',
+    'import/no-absolute-path': 'off',
     // Common
     semi: [2, 'never'],
     curly: [2, 'multi-or-nest', 'consistent'],
