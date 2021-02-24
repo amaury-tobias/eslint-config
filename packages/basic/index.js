@@ -1,8 +1,8 @@
 module.exports = {
   env: {
-    es6: true,
     browser: true,
     node: true,
+    es2021: true,
   },
   extends: ['standard', 'plugin:import/errors', 'plugin:import/warnings'],
   plugins: ['html', 'unicorn'],
@@ -19,13 +19,13 @@ module.exports = {
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
     // Common
-    semi: [2, 'never'],
-    curly: [2, 'multi-or-nest', 'consistent'],
+    semi: ['error', 'never'],
+    curly: ['error', 'multi-or-nest', 'consistent'],
     quotes: ['error', 'single'],
     'no-unused-vars': 'warn',
     'no-param-reassign': 'off',
     'array-bracket-spacing': ['error', 'never'],
-    'brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
+    'brace-style': ['warn', '1tbs'],
     'block-spacing': ['error', 'always'],
     camelcase: 'off',
     'comma-spacing': ['error', { before: false, after: true }],
@@ -52,7 +52,11 @@ module.exports = {
     'no-spaced-func': 'error',
     'object-curly-spacing': ['error', 'always'],
     'no-return-await': 'off',
-    'space-before-function-paren': ['error', 'never'],
+    'space-before-function-paren': ['error', {
+      anonymous: 'never',
+      named: 'never',
+      asyncArrow: 'always',
+    }],
     // es6
     'no-var': 'error',
     'prefer-const': [
@@ -83,12 +87,13 @@ module.exports = {
     'template-curly-spacing': 'error',
     'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
     'generator-star-spacing': 'off',
+    'prefer-exponentiation-operator': 'error',
     // best-practice
     'array-callback-return': 'error',
     'block-scoped-var': 'error',
-    'consistent-return': 'off',
+    'consistent-return': 'error',
     complexity: ['off', 11],
-    eqeqeq: ['error', 'allow-null'],
+    eqeqeq: ['error', 'always', { null: 'ignore' }],
     'no-alert': 'warn',
     'no-case-declarations': 'error',
     'no-multi-spaces': 'error',
@@ -106,21 +111,19 @@ module.exports = {
     // Uppercase regex escapes
     'unicorn/escape-case': 'error',
     // Array.isArray instead of instanceof
-    'unicorn/no-array-instanceof': 'error',
+    'unicorn/no-instanceof-array': 'error',
     // Prevent deprecated `new Buffer()`
     'unicorn/no-new-buffer': 'error',
     // Keep regex literals safe!
     'unicorn/no-unsafe-regex': 'off',
     // Lowercase number formatting for octal, hex, binary (0x12 instead of 0X12)
     'unicorn/number-literal-case': 'error',
-    // ** instead of Math.pow()
-    'unicorn/prefer-exponentiation-operator': 'error',
     // includes over indexOf when checking for existence
     'unicorn/prefer-includes': 'error',
     // String methods startsWith/endsWith instead of more complicated stuff
-    'unicorn/prefer-starts-ends-with': 'error',
+    'unicorn/prefer-string-starts-ends-with': 'error',
     // textContent instead of innerText
-    'unicorn/prefer-text-content': 'error',
+    'unicorn/prefer-dom-node-text-content': 'error',
     // Enforce throwing type error when throwing error while checking typeof
     'unicorn/prefer-type-error': 'error',
     // Use new when throwing error
