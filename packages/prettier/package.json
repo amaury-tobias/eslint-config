@@ -1,0 +1,33 @@
+{
+  "name": "@attq/eslint-config-prettier",
+  "version": "0.0.3",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "amaury-tobias <amaury.tobiasqr@gmail.com> (https://amaurytq.dev)",
+  "homepage": "https://github.com/amaury-tobias/eslint-config#readme",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaury-tobias/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amaury-tobias/eslint-config/issues"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1"
+  },
+  "peerDependencies": {
+    "prettier": "^2.2.1"
+  }
+}

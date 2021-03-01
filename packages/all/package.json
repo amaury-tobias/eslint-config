@@ -19,6 +19,7 @@
     "eslint": "^7.21.0"
   },
   "dependencies": {
+    "@attq/eslint-config-prettier": "^0.0.3",
     "@attq/eslint-config-vue": "^0.0.3"
   }
 }
