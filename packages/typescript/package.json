@@ -5,12 +5,20 @@
 	"main": "index.js",
 	"keywords": [],
 	"author": "amaury-tobias <amaury.tobiasqr@gmail.com> (https://amaurytq.dev)",
+	"homepage": "https://github.com/amaury-tobias/eslint-config#readme",
 	"license": "MIT",
 	"files": [
 		"index.js"
 	],
 	"publishConfig": {
 		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/amaury-tobias/eslint-config.git"
+	},
+	"bugs": {
+		"url": "https://github.com/amaury-tobias/eslint-config/issues"
 	},
 	"peerDependencies": {
 		"eslint": ">=7.4.0",
