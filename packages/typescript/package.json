@@ -1,6 +1,6 @@
 {
   "name": "@attq/eslint-config-ts",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "keywords": [],
@@ -28,7 +28,7 @@
     "eslint": "^7.21.0"
   },
   "dependencies": {
-    "@attq/eslint-config-basic": "^0.0.3",
+    "@attq/eslint-config-basic": "^0.1.0",
     "@typescript-eslint/eslint-plugin": "^4.16.0",
     "@typescript-eslint/parser": "^4.16.0"
   }

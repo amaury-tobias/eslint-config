@@ -1,6 +1,6 @@
 {
   "name": "@attq/eslint-config-vue",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "keywords": [],
@@ -24,7 +24,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@attq/eslint-config-ts": "^0.0.3",
+    "@attq/eslint-config-ts": "^0.1.0",
     "eslint-plugin-vue": "^7.6.0"
   },
   "devDependencies": {
