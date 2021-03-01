@@ -16,7 +16,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "eslint": "^7.20.0"
+    "eslint": "^7.21.0"
   },
   "dependencies": {
     "@attq/eslint-config-vue": "^0.0.3"
