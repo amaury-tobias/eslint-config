@@ -1,35 +1,35 @@
 {
-	"name": "@attq/eslint-config-ts",
-	"version": "0.0.3",
-	"description": "",
-	"main": "index.js",
-	"keywords": [],
-	"author": "amaury-tobias <amaury.tobiasqr@gmail.com> (https://amaurytq.dev)",
-	"homepage": "https://github.com/amaury-tobias/eslint-config#readme",
-	"license": "MIT",
-	"files": [
-		"index.js"
-	],
-	"publishConfig": {
-		"access": "public"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/amaury-tobias/eslint-config.git"
-	},
-	"bugs": {
-		"url": "https://github.com/amaury-tobias/eslint-config/issues"
-	},
-	"peerDependencies": {
-		"eslint": ">=7.4.0",
-		"typescript": ">=4.1"
-	},
-	"devDependencies": {
-		"eslint": "^7.21.0"
-	},
-	"dependencies": {
-		"@attq/eslint-config-basic": "^0.0.3",
-		"@typescript-eslint/eslint-plugin": "^4.16.0",
-		"@typescript-eslint/parser": "^4.16.0"
-	}
+  "name": "@attq/eslint-config-ts",
+  "version": "0.0.3",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "amaury-tobias <amaury.tobiasqr@gmail.com> (https://amaurytq.dev)",
+  "homepage": "https://github.com/amaury-tobias/eslint-config#readme",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaury-tobias/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amaury-tobias/eslint-config/issues"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=4.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0"
+  },
+  "dependencies": {
+    "@attq/eslint-config-basic": "^0.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.16.0",
+    "@typescript-eslint/parser": "^4.16.0"
+  }
 }
