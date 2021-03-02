@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@attq/eslint-config-ts": "^0.1.0",
-    "eslint-plugin-vue": "^7.6.0"
+    "eslint-plugin-vue": "^7.7.0"
   },
   "devDependencies": {
     "eslint": "^7.21.0"
