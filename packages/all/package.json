@@ -1,6 +1,6 @@
 {
   "name": "@attq/eslint-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "index.js",
   "keywords": [],
@@ -20,6 +20,6 @@
   },
   "dependencies": {
     "@attq/eslint-config-prettier": "^0.1.0",
-    "@attq/eslint-config-vue": "^0.1.1"
+    "@attq/eslint-config-vue": "^0.1.2"
   }
 }
