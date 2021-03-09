@@ -14,8 +14,8 @@
   "devDependencies": {
     "@attq/eslint-config": "*",
     "eslint": "^7.21.0",
-    "lerna": "^3.22.1",
+    "lerna": "^4.0.0",
     "prettier": "^2.2.1",
-    "typescript": "^4.2.2"
+    "typescript": "^4.2.3"
   }
 }
